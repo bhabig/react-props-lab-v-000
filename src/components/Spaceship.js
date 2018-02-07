@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default class Spaceship extends React.Component {
+<<<<<<< HEAD
   debugger;
   render() {
     return(
@@ -27,4 +28,13 @@ Spaceship.propTypes = {
   speed: PropTypes.number,
   hasRockets: PropTypes.bool,
   colors: PropTypes.arrayOf(PropTypes.string)
+=======
+  render() {
+    return(
+      <div>
+      
+      </div>
+    )
+  }
+>>>>>>> 4ef02b6fc63016c0e558c2a7f7ec907d788503bf
 }
